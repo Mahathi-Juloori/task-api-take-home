@@ -4,7 +4,7 @@ A 2-day take-home assignment. You'll read unfamiliar code, write tests, track do
 
 Read [**ASSIGNMENT.md**](./ASSIGNMENT.md) for the full brief before you start.
 
-\---
+---
 
 ## A note on AI tools
 
@@ -16,7 +16,7 @@ Concretely:
 * For the feature you implement: briefly explain the design decisions you made
 * If something surprised you or you had to make a tradeoff, say so
 
-\---
+---
 
 ## Getting Started
 
@@ -35,7 +35,7 @@ npm test           # run test suite
 npm run coverage   # run with coverage report
 ```
 
-\---
+---
 
 ## Project Structure
 
@@ -54,7 +54,7 @@ ASSIGNMENT.md               # Full brief — read this first
 
 > The data store is in-memory. It resets every time the server restarts.
 
-\---
+---
 
 ## API Reference
 
@@ -105,7 +105,7 @@ curl "http://localhost:3000/tasks?status=pending\&page=1\&limit=10"
 curl -X PATCH http://localhost:3000/tasks/<id>/complete
 ```
 
-\---
+---
 
 ## What to Submit
 
