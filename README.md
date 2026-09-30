@@ -118,23 +118,23 @@ See [ASSIGNMENT.md](./ASSIGNMENT.md) for full submission requirements. At minimu
 
 
 
-\---
+---
 
 
 
-\## Submission Notes
+## Submission Notes
 
 
 
-\- Bug report: \[BUG\_REPORT.md](./BUG\_REPORT.md)
+- Bug report: \[BUG\_REPORT.md](./BUG\_REPORT.md)
 
-\- Design decisions, what I'd test next, and questions: \[SUBMISSION\_NOTES.md](./SUBMISSION\_NOTES.md)
+- Design decisions, what I'd test next, and questions: \[SUBMISSION\_NOTES.md](./SUBMISSION\_NOTES.md)
 
-\- Tests live in `task-api/tests/` (service unit tests, validator unit tests, Supertest integration tests)
+- Tests live in `task-api/tests/` (service unit tests, validator unit tests, Supertest integration tests)
 
 
 
-\### Test results
+### Test results
 
 
 
@@ -142,38 +142,24 @@ All 3 suites pass, 80 tests, 0 failures (`npm test`).
 
 
 
-\### Coverage (`npm run coverage`)
+### Coverage (`npm run coverage`)
 
 
 
 ```
-
-\-----------------|---------|----------|---------|---------|-------------------
-
+-----------------|---------|----------|---------|---------|-------------------
 File             | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
-
-\-----------------|---------|----------|---------|---------|-------------------
-
+-----------------|---------|----------|---------|---------|-------------------
 All files        |   97.51 |    94.79 |   96.66 |   97.27 |
-
-&#x20;src             |      75 |    63.63 |      50 |      75 |
-
-&#x20; app.js         |      75 |    63.63 |      50 |      75 | 17-18,24-25
-
-&#x20;src/routes      |     100 |      100 |     100 |     100 |
-
-&#x20; tasks.js       |     100 |      100 |     100 |     100 |
-
-&#x20;src/services    |     100 |    94.73 |     100 |     100 |
-
-&#x20; taskService.js |     100 |    94.73 |     100 |     100 | 26
-
-&#x20;src/utils       |     100 |      100 |     100 |     100 |
-
-&#x20; validators.js  |     100 |      100 |     100 |     100 |
-
-\-----------------|---------|----------|---------|---------|-------------------
-
+ src             |      75 |    63.63 |      50 |      75 |
+  app.js         |      75 |    63.63 |      50 |      75 | 17-18,24-25
+ src/routes      |     100 |      100 |     100 |     100 |
+  tasks.js       |     100 |      100 |     100 |     100 |
+ src/services    |     100 |    94.73 |     100 |     100 |
+  taskService.js |     100 |    94.73 |     100 |     100 | 26
+ src/utils       |     100 |      100 |     100 |     100 |
+  validators.js  |     100 |      100 |     100 |     100 |
+-----------------|---------|----------|---------|---------|-------------------
 ```
 
 
@@ -182,7 +168,7 @@ The uncovered lines in `app.js` are `app.listen()` and the generic 500 error bra
 
 
 
-\### Live API
+### Live API
 
 
 
